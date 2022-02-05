@@ -1,0 +1,33 @@
+body {
+    font-size: 30px;
+}
+#calculator {
+    margin: 30px;
+}
+#calForm {
+    background-color: #000;
+    color: #fff;
+    max-width: 500px;
+    text-align: right;
+    margin: 3px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.buttonsACEq {
+    display: flex;
+    flex-direction: row;
+}
+.buttonNum, .buttonCal, .buttonDec {
+    font-size: 20px;
+    width: 120px;
+    height: 45px;
+    margin: 3px;
+}
+#buttonAC, #buttonEq {
+    font-size: 20px;
+    width: 245px;
+    height: 45px;
+    margin: 3px;
+}
