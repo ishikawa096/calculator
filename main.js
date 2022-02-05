@@ -8,9 +8,9 @@ $(function(){
         let number = $(this).val();
         if(formData === "0"){
             $("#calForm").text(number);
-                if(number == 00){
-                    $("#calForm").text(0);
-                }
+            if(number == 00){
+                $("#calForm").text(0);
+            }
         } else {
             $("#calForm").text(formData + number);
         }
